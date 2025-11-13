@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dominic juma's Portfolio</title>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      overflow: scroll;
+    }
+    body {
+      background-color: wheat;
+    }
+    
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 1.5rem;
+    margin-top: 0.4em;
+      color: black;
+    }
+    nav div {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+    }
+  div a:last-child {
+    margin-right: 1em;
+  }
+    #about, #projects, #contacts {
+      margin: 1em auto 0 auto;
+      font-size: 1.1rem;
+      width: 95%;
+      border-radius: 20px;
+      background-color: rgb(2, 150, 250);
+    }
+    #about p {
+      margin: 10px;
+    }
+    #about p:first-of-type {
+      margin-left: 1em;
+    }
+    #myImage {
+      width: 100%;
+      object-fit: contain;
+      height: 65vh;
+    }
+  
+  table {
+
+    border-collapse: separate;
+    border-spacing: 0.5em;
+  }
+    #table-2 {
+      background-color: olivedrab;
+    }
+    #table-2 td {
+      background-color: whitesmoke;
+    }
+td {
+  border: 2px solid black;
+  padding: 0.5em;
+  background-color: wheat;
+}
+    ul {
+      list-style-position: inside;
+      list-style-type: none;
+      padding-left: 40%;
+    }
+    .courseProject {
+      width: 20%;
+      height: 10vh;
+      object-fit: cover;
+      margin-top: 0.5em;
+    }
+    #projects {
+      padding: 0.5em;
+    }
+    #projects a {
+      margin-left: 40%;
+    }
+    #projects p {
+      margin: 0.3em;
+    }
+    #contacts {
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+    #contacts p {
+      margin: 0.3em;
+      
+    }
+    #contact-container {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    a {
+      color: brown;
+    }
+  td:active {
+    transform: scale(1.01);
+  }
+  img:active {
+    transform: scale(1.03);
+  }
+  </style>
+</head>
+
+<body>
+  </header>
+    <nav>
+      <div>
+    <a href="#about">about</a>
+    <a href="#projects">projects</a>
+    <a href="#contacts">contacts</a>
+    </div>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <p><b>about:</b></p>
+      <img src="IMG_20250317_151641.jpg" alt="an image showing the face of a boy wearing a black jamper" id="myImage" loading="lazy"/>
+      <p>Hello, am <b>Dominic Juma</b> an aspiring website developer passionate about building clean, responsive user interfaces using modern web standards.</p>
+      <p><b>My motivational quote</b>: <span>Actions speak louder than words. Act more talk less.</span></p>
+      <p><b>Hobby</b>: Coding, Watching and listening to music.</p>
+      <hr>
+      <table id="table-1">
+        <tr>
+      <th>skill</th>
+      <th>level</th>
+        </tr>
+        <tr>
+          <td>HTML5 & CSS3</td>
+          <td>strong foundational knowledge</td>
+        </tr>
+        <tr>
+          <td>JavaScript(ES6)</td>
+          <td>Proficient in DOM manipulation and basic logic.</td>
+        </tr>
+        <tr>
+          <td>Git & Github</td>
+          <td>currently learning and building small projects</td>
+        </tr>
+        <tr>
+          <td>React</td>
+          <td>Currently learning</td>
+        </tr>
+      </table>
+    
+    </section>
+    <section id="projects">
+      <p><b>Projects:</b></p>
+      <hr>
+      <p><em style="color: honeydew">Student unit organiser platform,</em> <br>Organises units specifically for the student and the program in one place to help the student access notes, unit confirmation and revision materials easily. Still being improved.</p>
+      <p><b>My role:</b> Founder and Project Menager.</p>
+      <table id="table-2">
+        <tr>
+          <th>Technology used</th>
+          <th>Role</th>
+        </tr>
+        <tr>
+          <td>HTML5</td>
+          <td>Structuring the site and representing content.</td>
+        </tr>
+        <tr>
+          <td>CSS3</td>
+          <td>Styling the elements.</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Adding interactivity and handling clicks.</td>
+        </tr>
+        <tr>
+          <td>Git and GitHub</td>
+          <td>Organising and editing code, hosting the site online.</td>
+        </tr>
+      </table>
+      <img src="Screenshot_2025-11-13-13-48-10-540_io.spck.jpg" class="courseProject" loading="lazy" alt="screenshot" />
+      <img src="Screenshot_2025-11-13-13-44-14-643_io.spck.jpg" class="courseProject" loading="lazy" />
+      <img src="Screenshot_2025-11-12-11-44-27-211_com.android.chrome.jpg" class="courseProject" loading="lazy"/>
+      <img src="Screenshot_2025-11-13-12-44-19-156_com.android.chrome.jpg" class="courseProject" />
+      <img src="Screenshot_2025-11-13-13-44-40-446_io.spck.jpg" class="courseProject" loading="lazy"/>
+      <img src="Screenshot_2025-11-13-13-44-59-988_io.spck.jpg" class="courseProject" loading="lazy"/>
+  <p><a href="https://university-1234.github.io/noting/" target="_blank">visit the site</a></p>
+    </section>
+    <section id="contacts">
+    <p><b>contacts:</b></p>
+    <hr>
+    <p><em>let's connect:</em></p>
+    <p id="contact-container"><a href="https://wa.me/+254768134809?text=hello%20dominic%20can%20i%20%20get%20more%20information">WhatsApp</a> <a href="https://facebook.com/dominic.juma.476694">Facebook</a> <a href="tel:+254768134809">call</a> <a href="mailto:jumadomi518@gmail.com">Email</a> <a href="sms:+254768134809?body=hello,%20dominic">Sms</a></p>
+    </section>
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+
+</html>
